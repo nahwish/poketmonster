@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93abc7e5bcf3f604cac485b64a246bde, type: 3}
+  m_Name: 157.Typhlosion
+  m_EditorClassIdentifier: 
+  ID: 157
+  name: Typhlosion
+  description: "Typhlosion es la forma final de la l\xEDnea evolutiva de Cyndaquil.
+    Es un Pok\xE9mon de fuego feroz y puede crear llamas intensas."
+  frontSprite: {fileID: 21300000, guid: 24ea1c554b65e7648a5d005282a9ca56, type: 3}
+  backSprite: {fileID: 21300000, guid: 3b82eafc4825ecd44927df7b3b49b3ca, type: 3}
+  type1: 2
+  type2: 0
+  maxHP: 78
+  attack: 84
+  defense: 78
+  spAttack: 109
+  spDefense: 85
+  speed: 100
+  learnableMoves: []

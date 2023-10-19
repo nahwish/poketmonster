@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93abc7e5bcf3f604cac485b64a246bde, type: 3}
+  m_Name: 9.Blastoise
+  m_EditorClassIdentifier: 
+  ID: 9
+  name: Blastoise
+  description: "Blastoise es la forma final de la l\xEDnea evolutiva de Squirtle.
+    Es un gran Pok\xE9mon de tipo Agua con ca\xF1ones de agua en su caparaz\xF3n
+    que puede disparar chorros de agua poderosos."
+  frontSprite: {fileID: 21300000, guid: 36be00b73648ce044ba5d3fece9599da, type: 3}
+  backSprite: {fileID: 21300000, guid: 23bbb2d0827352b4cbf22b9e22a05bcf, type: 3}
+  type1: 3
+  type2: 0
+  maxHP: 79
+  attack: 83
+  defende: 100
+  spAttack: 85
+  spDefense: 105
+  speed: 78

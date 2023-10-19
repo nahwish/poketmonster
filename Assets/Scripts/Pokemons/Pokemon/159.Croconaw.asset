@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93abc7e5bcf3f604cac485b64a246bde, type: 3}
+  m_Name: 159.Croconaw
+  m_EditorClassIdentifier: 
+  ID: 159
+  name: Croconaw
+  description: "Croconaw es la evoluci\xF3n de Totodile. Sus mand\xEDbulas son m\xE1s
+    fuertes y puede triturar casi cualquier cosa."
+  frontSprite: {fileID: 21300000, guid: 9d47616ef496f60428982e36b1efadad, type: 3}
+  backSprite: {fileID: 21300000, guid: 47df6ba1438c95f4fbc4b7bfc0fcb88b, type: 3}
+  type1: 3
+  type2: 0
+  maxHP: 65
+  attack: 80
+  defense: 63
+  spAttack: 59
+  spDefense: 58
+  speed: 58
+  learnableMoves: []

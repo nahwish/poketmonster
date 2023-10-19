@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - playerWater
   layers:
   - Default
   - TransparentFX
@@ -12,9 +13,9 @@ TagManager:
   - Water
   - UI
   - SolidObject
-  - 
-  - 
-  - 
+  - Grass - Pokemon
+  - Water - Pokemon
+  - Cave - Pokemon
   - 
   - 
   - 
@@ -44,12 +45,12 @@ TagManager:
   - name: background
     uniqueID: 623780605
     locked: 0
-  - name: foreground
-    uniqueID: 1902421775
+  - name: most foreground
+    uniqueID: 4099593689
     locked: 0
   - name: player
     uniqueID: 1985210775
     locked: 0
-  - name: most foreground
-    uniqueID: 4099593689
+  - name: foreground
+    uniqueID: 1902421775
     locked: 0

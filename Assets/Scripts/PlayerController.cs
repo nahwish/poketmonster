@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
+
 [RequireComponent(typeof(Animator))]
 public class PlayerController : MonoBehaviour
 {
+    
     private bool isMoving;
     [SerializeField]
     [Tooltip("Todos los objetos que el personaje no puede atravesar")]
@@ -13,12 +15,16 @@ public class PlayerController : MonoBehaviour
     float speed;
     private Vector2 input;
     private Animator _animator;
+
+    
     void Awake()
     {
         _animator = GetComponent<Animator>();
     }
+
     private void Update()
     {
+        
         if (!isMoving)
         {
             IsMovingPosition();
@@ -99,7 +105,7 @@ public class PlayerController : MonoBehaviour
     /// <returns> devuelve true si la zona esta disponible</returns> 
     private bool IsAvailable(Vector3 target)
     {
-        if (Physics2D.OverlapCircle(target, 0.5f, solidObjectLayer) != null)
+        if (Physics2D.OverlapCircle(target, 0.2f, solidObjectLayer) != null)
         {
             return false;
         }

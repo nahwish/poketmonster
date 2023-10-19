@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93abc7e5bcf3f604cac485b64a246bde, type: 3}
+  m_Name: 151.Mew
+  m_EditorClassIdentifier: 
+  ID: 151
+  name: Mew
+  description: "Mew es un Pok\xE9mon m\xEDtico de tipo Ps\xEDquico. Se dice que contiene
+    el ADN de todos los Pok\xE9mon y es capaz de aprender cualquier movimiento."
+  frontSprite: {fileID: 21300000, guid: 47b02d8a08918c44cb9dcb9d1eedfe78, type: 3}
+  backSprite: {fileID: 21300000, guid: dca9800ca0dd1cd478fd4cdd41667ad5, type: 3}
+  type1: 11
+  type2: 0
+  maxHP: 100
+  attack: 100
+  defense: 100
+  spAttack: 100
+  spDefense: 100
+  speed: 100
+  learnableMoves: []

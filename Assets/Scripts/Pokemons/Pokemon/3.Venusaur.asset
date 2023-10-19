@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93abc7e5bcf3f604cac485b64a246bde, type: 3}
+  m_Name: 3.Venusaur
+  m_EditorClassIdentifier: 
+  ID: 3
+  name: Venusaur
+  description: "Venusaur es la forma final de la l\xEDnea evolutiva de Bulbasaur.
+    Es un Pok\xE9mon grande y robusto con un bulbo en su espalda que florece en una
+    hermosa flor. Tiene un poderoso ataque especial."
+  frontSprite: {fileID: 21300000, guid: b5ac378ce1f00c641a583e8358575619, type: 3}
+  backSprite: {fileID: 21300000, guid: 736796f1e01e2e146946fbb9537a8cbd, type: 3}
+  type1: 5
+  type2: 8
+  maxHP: 80
+  attack: 82
+  defende: 83
+  spAttack: 100
+  spDefense: 100
+  speed: 80
