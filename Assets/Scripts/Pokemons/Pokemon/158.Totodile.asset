@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93abc7e5bcf3f604cac485b64a246bde, type: 3}
+  m_Name: 158.Totodile
+  m_EditorClassIdentifier: 
+  ID: 158
+  name: Totodile
+  description: "Totodile es un peque\xF1o Pok\xE9mon de tipo Agua. Tiene mand\xEDbulas
+    fuertes y es un nadador \xE1gil."
+  frontSprite: {fileID: 21300000, guid: 84cab90a6b0208b419a4a17a4ee168fe, type: 3}
+  backSprite: {fileID: 21300000, guid: 5465450968ca19541ad938eeea9860f1, type: 3}
+  type1: 3
+  type2: 0
+  maxHP: 50
+  attack: 65
+  defense: 48
+  spAttack: 44
+  spDefense: 43
+  speed: 43
+  learnableMoves: []

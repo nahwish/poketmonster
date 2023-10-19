@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93abc7e5bcf3f604cac485b64a246bde, type: 3}
+  m_Name: 7.Squirtle
+  m_EditorClassIdentifier: 
+  ID: 7
+  name: Squirtle
+  description: "Squirtle es un Pok\xE9mon de tipo Agua. Tiene una concha en su espalda
+    y es conocido por su habilidad para disparar chorros de agua a alta presi\xF3n."
+  frontSprite: {fileID: 21300000, guid: 7a37aa6717a6c4d46921d20aaf7c048f, type: 3}
+  backSprite: {fileID: 21300000, guid: 000532e45c78bf04ba61369c4b5a982c, type: 3}
+  type1: 3
+  type2: 0
+  maxHP: 44
+  attack: 48
+  defende: 65
+  spAttack: 50
+  spDefense: 64
+  speed: 43
