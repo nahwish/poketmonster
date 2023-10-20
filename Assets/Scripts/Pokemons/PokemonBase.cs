@@ -13,6 +13,8 @@ public class PokemonBase : ScriptableObject
   [TextArea][SerializeField] private string description;
   public string Description =>description;
   [SerializeField] private Sprite frontSprite;
+  public Sprite FrontSprite => frontSprite;
+  public Sprite BackSprite => backSprite;
   [SerializeField] private Sprite backSprite;
   [SerializeField] private PokemonType type1;
   public PokemonType Type1 =>type1;
