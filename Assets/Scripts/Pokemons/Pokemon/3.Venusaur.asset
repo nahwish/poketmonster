@@ -23,7 +23,10 @@ MonoBehaviour:
   type2: 8
   maxHP: 80
   attack: 82
-  defende: 83
+  defense: 0
   spAttack: 100
   spDefense: 100
   speed: 80
+  learnableMoves:
+  - move: {fileID: 11400000, guid: a6d3108cd0b86d24cbb18e127b023088, type: 2}
+    level: 3
